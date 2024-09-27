@@ -1,4 +1,19 @@
-# Client Task A #
+# Client Task A # Guess the Number Game
+
+Task: Write pseudocode for a number guessing game. 
+The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+
+Hints: Input/output, conditional logic
+
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+secret: random number range (1,10)
+guess: track users input
+tries: track and limit atempts to 3
+print greeting and explaination
+prompt for guess input, should be restricted to integers
+loop check guess === secret
+	else print (<,>) hints
+secret === guess, print a win
+tries === 3, print loss

@@ -1,4 +1,22 @@
-# Client Task B #
+# Client Task B # Find the Spot
+
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. 
+The customer can move north, south, east, or west.
+
+Hints: Loops, Variables
+
+
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+location: starting point
+destination: ending point
+define/find rangeX
+define/find rangeY
+
+
+prompt for destination 
+	compare to location 
+	print directions
+	print course corrections
+	re occurs until (destination === destination, print string "Location reached.")
